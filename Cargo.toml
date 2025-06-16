@@ -5,4 +5,4 @@ edition = "2024"
 
 [dependencies]
 image = "0.25.6"
-rscam = "0.5.5"
+rscam = { git = "https://github.com/loyd/rscam.git", branch = "master" }

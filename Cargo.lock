@@ -750,10 +750,10 @@ checksum = "57397d16646700483b67d2dd6511d79318f9d057fdbd21a4066aeac8b41d310a"
 [[package]]
 name = "rscam"
 version = "0.5.5"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "89056084211cd54924fedf2e2199b906409d1f795cfd8e7e3271061742457018"
+source = "git+https://github.com/loyd/rscam.git?branch=master#0145de306917acd77bf0d4cc222d9b46e16cd0ea"
 dependencies = [
  "libc",
+ "thiserror",
 ]
 
 [[package]]
